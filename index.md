@@ -53,5 +53,5 @@ Jaringan komunikasi dan informasi khusus untuk para lulusan SMAN 2 Bengkalis.
 ---
 <br>
 <p align="center">
-    **[Nama Guru Anda]** | Guru Mata Pelajaran [Tulis Mata Pelajaran Anda] | SMAN 2 Bengkalis
+    SUHARTANTO | Guru INFORMATIKA | SMAN 2 Bengkalis
 </p>
