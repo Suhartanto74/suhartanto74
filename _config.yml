@@ -1,5 +1,3 @@
-# Kode sebelumnya:
-theme: orderedlist 
-
-# Ganti menjadi kode ini (untuk menggunakan tema Agency):
-remote_theme: "bencentra/jekyll-theme-agency"
+remote_theme: "bencentra/jekyll-theme-agency" 
+title: Suhartanto - TANTO Server
+description: Profil dan Portofolio Resmi Suhartanto
