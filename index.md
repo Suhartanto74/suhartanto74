@@ -3,7 +3,7 @@ layout: default
 title: Home | SMAN 2 Bengkalis
 ---
 
-# 🏫 Selamat Datang di Website Resmi SMAN 2 Bengkalis
+# 🏫 Selamat Datang di SMAN 2 Bengkalis
 
 ## Mewujudkan Generasi Unggul dan Berakhlak Mulia
 
