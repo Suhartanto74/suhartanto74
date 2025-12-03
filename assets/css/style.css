@@ -78,44 +78,62 @@
 }
 /* --- CSS BARU UNTUK MENU KEREN --- */
 
+/* NAVBAR STYLING */
+.main-nav {
+    background-color: #34495e; 
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.nav-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.site-title {
+    color: #ffffff; /* Putih Murni */
+    text-decoration: none;
+    font-size: 1.8em; 
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+/* LIST STYLING (Menu) */
 .nav-links ul {
-    list-style: none; /* Hilangkan bullet point default */
+    list-style: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Jadikan horizontal */
+    display: flex;
     align-items: center;
 }
 
 .nav-links ul li {
     position: relative;
-    margin-left: 25px; /* Spasi antar menu */
+    margin-left: 25px;
     padding: 0 0 0 10px;
 }
 
-/* Garis Pemisah (Separator Dot) */
+/* Garis Pemisah (Separator Dot) - Dibuat Lebih Cerah */
 .nav-links ul li:not(:first-child)::before {
-    content: "•"; /* Simbol titik */
-    color: #586c82; /* Warna abu-abu gelap */
+    content: "•"; 
+    color: #ffffff; /* Ubah warna dot menjadi putih agar terlihat */
     position: absolute;
     left: 0;
     font-size: 0.8em;
-    opacity: 0.6;
+    opacity: 0.8; 
 }
 
+/* Link Menu: Dibuat Sangat Jelas */
 .nav-links a {
-    color: #ffffff; 
+    color: #ffffff; /* KRITIS: Putih Murni untuk kontras tinggi */
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700; /* Dibuat lebih tebal (Bold) */
     transition: color 0.3s;
-    margin-left: 25px;
+    margin: 0; 
 }
 
 .nav-links a:hover {
-    color: #1abc9c; 
-}
-
-.button.secondary:hover {
-    background-color: #34495e;
-    color: white;
-    transform: translateY(-3px);
+    color: #1abc9c; /* Warna aksen/hover */
 }
