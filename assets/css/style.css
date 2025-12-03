@@ -76,6 +76,43 @@
     color: #34495e;
     border: 2px solid #34495e;
 }
+/* --- CSS BARU UNTUK MENU KEREN --- */
+
+.nav-links ul {
+    list-style: none; /* Hilangkan bullet point default */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Jadikan horizontal */
+    align-items: center;
+}
+
+.nav-links ul li {
+    position: relative;
+    margin-left: 25px; /* Spasi antar menu */
+    padding: 0 0 0 10px;
+}
+
+/* Garis Pemisah (Separator Dot) */
+.nav-links ul li:not(:first-child)::before {
+    content: "•"; /* Simbol titik */
+    color: #586c82; /* Warna abu-abu gelap */
+    position: absolute;
+    left: 0;
+    font-size: 0.8em;
+    opacity: 0.6;
+}
+
+.nav-links a {
+    color: #ecf0f1; 
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+    margin: 0; /* Hapus margin lama */
+}
+
+.nav-links a:hover {
+    color: #1abc9c; 
+}
 
 .button.secondary:hover {
     background-color: #34495e;
