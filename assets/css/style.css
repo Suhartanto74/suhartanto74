@@ -159,3 +159,66 @@
 .nav-links a:hover {
     color: #1abc9c; /* Warna aksen/hover */
 }
+/* ======================================= */
+/* MOBILE RESPONSIVENESS (HAMBURGER MENU)  */
+/* ======================================= */
+
+/* Sembunyikan Checkbox Controller */
+#menu-toggle {
+    display: none;
+}
+
+/* Gaya Icon Hamburger (Muncul di Mobile) */
+.menu-icon {
+    display: none; /* Sembunyikan di Desktop */
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+/* Aturan Responsif Utama (Layar HP) */
+@media (max-width: 768px) {
+    .nav-container {
+        flex-wrap: wrap; /* Izinkan elemen membungkus */
+    }
+
+    /* Tampilkan Icon Hamburger */
+    .menu-icon {
+        display: block; 
+    }
+    
+    /* Atur List Menu */
+    .nav-links {
+        width: 100%; /* Ambil lebar penuh */
+        max-height: 0; /* KRITIS: Sembunyikan menu secara default */
+        overflow: hidden; /* Sembunyikan konten yang meluap */
+        transition: max-height 0.3s ease-in-out;
+        order: 3; /* Posisikan di bawah Brand dan Icon */
+        background-color: #34495e; /* Warna BG agar terlihat rapi saat dibuka */
+    }
+
+    /* Tampilkan Menu saat Hamburger Diklik */
+    #menu-toggle:checked ~ .nav-links {
+        max-height: 300px; /* Nilai yang cukup besar untuk menampilkan semua item */
+    }
+
+    /* Ubah Tampilan Link menjadi Vertikal */
+    .nav-links ul {
+        flex-direction: column; /* Tumpuk item secara vertikal */
+        align-items: flex-start;
+        padding: 10px 0;
+    }
+
+    .nav-links ul li {
+        margin: 0;
+        padding: 10px 20px;
+        width: 100%;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    /* Sembunyikan Pemisah Titik di Mobile */
+    .nav-links ul li:not(:first-child)::before {
+        display: none;
+    }
+}
