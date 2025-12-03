@@ -4,15 +4,15 @@ title: Beranda
 ---
 
 <div class="hero-section">
-    <img src="{{ '/assets/images/TANTO.jpg' | relative_url }}" alt="Foto Profil Suhartanto" class="profile-photo">
+    <img src="{{ '/assets/images/foto-anda.png' | relative_url }}" alt="Foto Profil Suhartanto" class="profile-photo">
     
-    <h1>Suhartanto</h1>
-    <h2 class="tagline">Full-Stack Developer | Project Manager | Your Professional Tagline</h2>
+    <h1>Halo, Saya Suhartanto</h1>
+    <h2 class="tagline">| Full-Stack Developer | Project Manager | Automation Expert |</h2>
     
-    <p>Selamat datang di situs portofolio digital saya. Saya berdedikasi untuk membangun solusi web yang efisien dan mengelola proyek dari konsep hingga implementasi.</p>
+    <p>Saya adalah seorang profesional yang berdedikasi membangun solusi teknologi yang efisien. Mari wujudkan ide Anda menjadi kenyataan, dari konsep hingga implementasi yang sukses.</p>
     
     <div class="cta-buttons">
-        <a href="{{ '/portfolio/' | relative_url }}" class="button primary">Lihat Portofolio</a>
-        <a href="{{ '/contact/' | relative_url }}" class="button secondary">Hubungi Saya</a>
+        <a href="{{ '/portfolio/' | relative_url }}" class="button primary">Lihat Proyek Terbaru</a>
+        <a href="{{ '/contact/' | relative_url }}" class="button secondary">Mulai Diskusi</a>
     </div>
 </div>
