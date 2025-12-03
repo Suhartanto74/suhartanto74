@@ -80,10 +80,11 @@
 
 /* NAVBAR STYLING */
 .main-nav {
-    background-color: #34495e; 
+    background-color: #2c3e50; /* Warna biru gelap yang bagus */
     padding: 15px 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 .nav-container {
     max-width: 1000px;
     margin: 0 auto;
@@ -92,15 +93,23 @@
     align-items: center;
     padding: 0 20px;
 }
-.site-title {
-    color: #ffffff; /* Putih Murni */
+
+/* BRANDING STYLE (Suhartanto di kiri) */
+.site-title-brand {
+    color: #1abc9c; /* Warna Aksen Hijau/Biru Terang */
     text-decoration: none;
-    font-size: 1.8em; 
-    font-weight: 600;
+    font-size: 1.6em;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+.site-title-brand i {
+    color: white;
+    font-size: 0.8em;
     vertical-align: middle;
+    margin-left: 5px;
 }
 
-/* LIST STYLING (Menu) */
+/* 1. Fix Teks Menu yang Pudar (Dibuat Sangat Terlihat) */
 .nav-links ul {
     list-style: none;
     margin: 0;
@@ -115,21 +124,21 @@
     padding: 0 0 0 10px;
 }
 
-/* Garis Pemisah (Separator Dot) - Dibuat Lebih Cerah */
+/* 2. Garis Pemisah (Separator Dot) - Dibuat Jelas */
 .nav-links ul li:not(:first-child)::before {
     content: "•"; 
-    color: #ffffff; /* Ubah warna dot menjadi putih agar terlihat */
+    color: #5d748f; /* Warna sedikit lebih lembut dari background */
     position: absolute;
     left: 0;
     font-size: 0.8em;
     opacity: 0.8; 
 }
 
-/* Link Menu: Dibuat Sangat Jelas */
+/* 3. Link Menu: Dibuat Terlihat Jelas */
 .nav-links a {
     color: #ffffff; /* KRITIS: Putih Murni untuk kontras tinggi */
     text-decoration: none;
-    font-weight: 700; /* Dibuat lebih tebal (Bold) */
+    font-weight: 600; 
     transition: color 0.3s;
     margin: 0; 
 }
