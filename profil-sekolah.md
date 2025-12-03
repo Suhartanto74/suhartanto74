@@ -26,5 +26,5 @@ permalink: /profil-sekolah/
 
 <div class="container-full-width">
     <h2>Struktur Organisasi</h2>
-    {{ '/assets/images/struktur-organisasi.png' | relative_url }} alt="Bagan Struktur Organisasi SMAN 2 Bengkalis" style="width:100%; max-width:800px; display: block; margin: 20px auto; border: 1px solid #ddd; border-radius: 8px;">
+    <img src="{{ '/assets/images/struktur-organisasi.png' | relative_url }}" alt="Bagan Struktur Organisasi SMAN 2 Bengkalis" style="width:100%; max-width:800px; display: block; margin: 20px auto; border: 1px solid #ddd; border-radius: 8px;">
 </div>
