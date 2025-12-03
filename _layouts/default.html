@@ -8,11 +8,16 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-    <div class="nav-links">
-    <a href="{{ '/about/' | relative_url }}">About</a>
-    <a href="{{ '/portfolio/' | relative_url }}">Portfolio</a>
-    <a href="{{ '/contact/' | relative_url }}">Contact</a>
-</div>
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="{{ '/' | relative_url }}" class="site-title">Suhartanto</a>
+            <div class="nav-links">
+                <a href="{{ '/about/' | relative_url }}">About</a>
+                <a href="{{ '/portfolio/' | relative_url }}">Portfolio</a>
+                <a href="{{ '/contact/' | relative_url }}">Contact</a>
+            </div>
+        </div>
+    </nav>
 
     <div class="content container">
         {{ content }} 
