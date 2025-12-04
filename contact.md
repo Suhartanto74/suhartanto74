@@ -11,12 +11,12 @@ permalink: /contact/
 <hr>
 
 ## 📧 Email
-<p><i class="fas fa-envelope fa-fw"></i> [Email Profesional Anda]</p>
+<p><i class="fas fa-envelope fa-fw"></i> suhartanto@gmail.com</p>
 
 ## 🔗 Media Sosial
-<p><i class="fab fa-linkedin fa-fw"></i> [Link Profil LinkedIn Anda]</p>
-<p><i class="fab fa-github fa-fw"></i> [Link Profil GitHub Anda]</p>
-<p><i class="fab fa-twitter fa-fw"></i> [Link Profil Twitter Anda (Opsional)]</p>
+<p><i class="fab fa-tiktok fa-fw"></i> https://www.tiktok.com/@musttanto</p>
+<p><i class="fab fa-github fa-fw"></i> suhartanto74.github.io</p>
+<p><i class="fab fa-twitter fa-fw"></i> https://x.com/suhartanto74</p>
 
 <hr>
 
