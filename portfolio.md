@@ -27,6 +27,7 @@ permalink: /portfolio/
 ## 📚 Proyek 3: Perpustakaan Digital (Google Apps Script)
 * **Teknologi:** Google Apps Script, Google Sheets, HTML/CSS
 * **Deskripsi:** Sistem yang memungkinkan pengguna untuk menambah data buku atau koleksi yang tersimpan secara dinamis di Google Sheets melalui formulir web.
-* **Link:** [Demo Live di Sini](/perpustakaan.html)
-   <hr>
+* **Link:** [Akses Demo Langsung di Sini](https://script.google.com/macros/s/AKfycbwxwfc3wrV5XqIIDM2q3ov89UBdTkoaiS3M9SijEEKQ8MfNwb9zC4zLap0xSrXkZpPJ/exec)
+
+<hr>
     
